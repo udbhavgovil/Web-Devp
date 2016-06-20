@@ -1,0 +1,112 @@
+body 
+{
+	background-color:  #F11F49;
+	font-family: "Oxygen" ,sans-serif; 
+	padding-top: 95px;
+	box-sizing: border-box;
+}
+.navbar
+{
+	background-color: #584CA5;
+}
+.navbar-brand
+{
+	font-size: 2em;
+	text-align: left;
+	font-weight: bold;
+	color:black;
+}
+
+.menu-button
+{
+	background-color: red;
+	border : 2px solid blue;
+}
+.navbar-fixed-top
+{
+ 	border: 2px solid black;
+ 	margin-bottom: 0px;
+}
+#title 
+{
+text-align: center;
+margin-top: 95px;
+margin-right: 10px;
+margin-left: 10px;
+font-size: 4em; 
+color:black;
+font-family: "Algerian";
+font-weight:bold;
+}
+div.menu
+{
+	text-align: center;
+	background-color: yellow;
+	font-family: "monotype corsiva";
+	color:black;
+	font-weight: bold;
+	font-size: 1.5em;
+	box-shadow: 2px 2px 2px 2px;
+	border : 3px solid black;
+	box-sizing: border-box;
+
+
+}
+p
+{
+	height : 1000px;
+	text-align: center;
+	margin-top: 95px;
+	margin-bottom: 95px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border : 5px solid blue;
+	font-size: 4em;
+	
+}
+#p2
+{
+	background-color: #BBADED;
+}
+#p3
+{
+	background-color: #CCEEFF;
+}
+#p1
+{
+	background-color: #FFEEAA;
+}
+section
+{
+	padding-top: 95px;
+	padding-bottom: 95px;
+	font-family: "forte";
+	color: black;
+	font-weight: bold italic ;
+
+}
+div.main-content
+{
+	padding-bottom: 0px;
+}
+
+div.menu > div {
+	
+	box-shadow: 2px 2px 2px 2px;
+	border : 3px solid black;
+	padding : 1px;
+	box-sizing: border-box;
+}
+/*for small device*/
+@media (max-width: 767px)
+{
+	.navbar-toggle .collapsed
+	{
+			width : auto;
+			float-right;
+	}
+	.navbar-brand
+	{
+		width: auto;
+	}
+}

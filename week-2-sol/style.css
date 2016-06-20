@@ -31,10 +31,6 @@
 			font-style:bold;
 			font-style:underline;
 		}
-	#p1,#p6
-	{
-		background-color: red;
-	}
 	#p2
 	{
 		background-color: #BBADED;
@@ -46,10 +42,6 @@
 	#p4
 	{
 		background-color: #FFEDDA;
-	}
-	#p5
-	{
-		background-color: #EEAAAB;
 	}
 	p.title
 	{
